@@ -30,7 +30,44 @@ const words = [
   'feeble',
   'admit',
   'drag',
-  'loving'
+  'loving',
+  'absence',
+  'Academic',
+  'Adapt',
+  'Balance',
+  'Beside',
+  'Calculate',
+  'margin',
+  'Last',
+  'neighbor',
+  'porch',
+  'port',
+  'elite',
+  'quite',
+  'emission',
+  'fewer',
+  'score',
+  'scream',
+  'screen',
+  'fiction',
+  'tactic',
+  'tail',
+  'take',
+  'forever',
+  'general',
+  'view',
+  'Highway',
+  'impact',
+  'income',
+  'yellow',
+  'Yesterday',
+  'Zone',
+  'Judge',
+  'illustrate',
+  'weapon',
+  'wealthy',
+  'scientist',
+  'Recognition',
 ];
 
 
@@ -102,7 +139,7 @@ function getRandomWord() {
 
 // Add word to DOM
 function addWordToDOM() {
-  randomWord = getRandomWord();
+  randomWord = getRandomWord().toLowerCase();
   word.innerHTML = randomWord; 
 }
 
